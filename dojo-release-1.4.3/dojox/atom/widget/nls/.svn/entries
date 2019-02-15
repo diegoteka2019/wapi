@@ -1,0 +1,245 @@
+9
+
+dir
+3917
+http://167.252.7.114/svn/Wapi/WAPI-MULTIPAIS/03-Informaci%c3%b3n%20T%c3%a9cnica/CodigoFuente/htdocs/wapimp/dojo-release-1.4.3/dojox/atom/widget/nls
+http://167.252.7.114/svn/Wapi
+
+
+
+2010-08-04T18:45:35.641517Z
+3246
+emlopez
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+3a40bd69-f123-0410-bcca-c6e2d96b7483
+
+da
+dir
+
+de
+dir
+
+sv
+dir
+
+ja
+dir
+
+he
+dir
+
+fi
+dir
+
+nb
+dir
+
+PeopleEditor.js
+file
+
+
+
+
+2013-01-14T20:07:53.902775Z
+9e35b83ed253f93253c412de1bcbe138
+2010-08-04T18:45:35.641517Z
+3246
+emlopez
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+75
+
+FeedEntryEditor.js
+file
+
+
+
+
+2013-01-14T20:07:53.902775Z
+a41e4df86e517bfdba39c4c67d14be59
+2010-08-04T18:45:35.641517Z
+3246
+emlopez
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+71
+
+fr
+dir
+
+nl
+dir
+
+th
+dir
+
+pl
+dir
+
+hu
+dir
+
+zh
+dir
+
+FeedEntryViewer.js
+file
+
+
+
+
+2013-01-14T20:07:53.887150Z
+5c1ceedd6fb83f72c35ddc1ea4b8f28c
+2010-08-04T18:45:35.641517Z
+3246
+emlopez
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+194
+
+FeedViewerEntry.js
+file
+
+
+
+
+2013-01-14T20:07:53.871525Z
+08d443388a4b62bae24eb25c72fcb21f
+2010-08-04T18:45:35.641517Z
+3246
+emlopez
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+29
+
+ca
+dir
+
+pt
+dir
+
+tr
+dir
+
+ru
+dir
+
+el
+dir
+
+ar
+dir
+
+pt-pt
+dir
+
+cs
+dir
+
+es
+dir
+
+zh-tw
+dir
+
+ko
+dir
+
+it
+dir
+
+sk
+dir
+
+sl
+dir
+

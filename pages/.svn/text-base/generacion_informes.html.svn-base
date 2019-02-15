@@ -1,0 +1,54 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="Pragma" content="no-cache">
+		<script type="text/javascript" src="scripts/generacion_informes.js"></script>
+    </head>
+    <body class="soria">
+	    <!-- ### TITULO ### -->
+		<div dojoType="dijit.layout.ContentPane" class="dijitToolbar" style="text-align:right;height:20px;">
+			<b><div id="bloqueMaster" style="display:inline;text-align:left;font-size:1.1em;padding-top:2px;margin-left:5px;float:left;">&nbsp;</div></b>
+			<div id="cmn_mensajes_master" title="Click para ocultar" onclick="dojo.fadeOut({node:'cmn_mensajes_master'}).play();dojo.byId('cmn_mensajes_master').style.cursor='default';" style="display:inline;width:50%;text-align:center;color:black;margin-top:2px;border: 1px solid #BABABA;">&nbsp;</div>
+		</div>
+		<!-- ### BARRA DE HERRAMIENTAS ### -->
+		<div id="toolbarMaster" style="height:24px;" dojoType="dijit.Toolbar"><div id="cantidadObtenidaMaster" style="float:right;padding:5px;">&nbsp;</div></div>
+		<br>
+		<!-- ### REPORTE ### -->
+		<div dojoType="dijit.layout.BorderContainer" design="headline" gutters="false" liveSplitters="false" style="width:100%;height:90%;overflow:auto;">
+		<div id="divReporte" dojoType="dijit.layout.ContentPane" style="margin-left:3%;"></div>
+		<br>
+		<div id="divFiltros" dojoType="dijit.layout.ContentPane" style="margin-left:3%;"></div>
+		</div>
+		<!-- ### DIALOGO CLIENTES ### -->
+		<div dojoType="dijit.Dialog" id="dialogClientes" title="Selecci&oacute;n de Clientes" style="background-color:#FFFFFF;width:380px;" >
+			<div style="padding:0px;margin:0px">
+			<table cellspacing="0" cellpadding="0" border="0" style="border:0px;margin:0px;padding:0px;width:100%;height:100%;">
+				<tr>
+					<td>
+						<label for="razon">Raz&oacute;n Social: </label>
+						<input id="razon" dojoType="dijit.form.TextBox"></input>
+					</td>
+					<td>
+						<button dojoType="dijit.form.Button" type="button" onclick="BuscarClientes()">Buscar</button>
+					</td>
+				</tr>
+			</table>
+			<br>
+			<div id="gridNodeOrigen" style="width:100%;"><table id="gridOrigen" jsId="gridOrigen" canSort='function(index){return false;}' style="width:100%;height:125px;" structure="layoutClientesOrigen" dojoType="dojox.grid.DataGrid" store="null" selectionMode="single" noDataMessage="No se han encontrado registros"></table></div>
+			<br>
+			<table cellspacing="0" cellpadding="0" border="0" style="border:0px;margin:0px;padding:0px;width:100%;height:100%;">
+				<tr>
+					<td style="margin:0px;padding:0px;width:50%;text-align:right;">
+						<button dojoType="dijit.form.Button" onclick="CargarClientes()" type="button">Aceptar</button>
+					</td>
+					<td style="margin:0px;padding:0px;width:50%;text-align:left;">
+						<button dojoType="dijit.form.Button" onclick="dijit.hideTooltip(dijit.byId('gridOrigen').domNode);dijit.byId('dialogClientes').hide()" type="button">Cancelar</button>
+					</td>
+				</tr>
+			</table>
+			</div>
+		</div>
+	</body>
+</html>

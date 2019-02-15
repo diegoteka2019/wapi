@@ -1,0 +1,41 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="Pragma" content="no-cache">
+		<script type="text/javascript" src="scripts/abm_simple.js"></script>
+    </head>
+    <body class="soria">
+		<!-- ################################ BLOQUE MASTER ################################## -->
+        <div dojoType="dijit.TitlePane" id="bloqueMaster" jsId="bloqueMaster">
+			<!-- ### BLOQUE FILTRO ### -->
+			<div id="filtroMaster"></div>
+			<!-- ### BLOQUE BOTONES ### -->
+			<div id="toolbarM" dojoType="dijit.Toolbar">
+				<div dojoType="dijit.form.Button" id="buscarMaster" iconClass="buscarIcon" disabled="true" onclick="BuscarM()" showLabel="false" label="Buscar"></div>
+			</div>
+			
+			
+			<table style="margin-top:5px;width:50%;">
+				<tr><!-- ### BOTON BUSCAR ### -->
+					<!-- <td width="25%"><button id="buscarMaster" dojoType="dijit.form.Button" onclick="BuscarM()" disabled="true" iconClass="buscarIcon" label="Buscar"></button></td> -->
+					<!-- ### BOTON NUEVO ### -->
+					<td width="25%"><button id="nuevoMaster" dojoType="dijit.form.Button" onclick='DialogFormM("N")' disabled="true" iconClass="nuevoIcon" label="Nuevo"></button></td>
+					<!-- ### BOTON EDITAR ### -->
+					<td width="25%"><button id="editarMaster" dojoType="dijit.form.Button" onclick='DialogFormM("E")' disabled="true" iconClass="editarIcon" label="Editar"></button></td>
+					<!-- ### BOTON COPIAR ### -->
+					<td width="25%"><button id="copiarMaster" dojoType="dijit.form.Button" onclick='DialogFormM("C")' disabled="true" iconClass="copiarIcon" label="Copiar"></button></td>
+					<!-- ### BOTON ELIMINAR ### -->
+					<td width="25%"><button id="eliminarMaster" dojoType="dijit.form.Button" onclick="PreEliminarM()" disabled="true" iconClass="eliminarIcon" label="Eliminar"></button></td>
+				</tr>
+            </table>
+            <div><!-- ### BLOQUE GRILLA ### -->
+				<div id="cantidadObtenidaM" style="width:95%;text-align:right;"></div>
+				<div style="width:100%; height:22em; margin:0">
+					<table id="gridMaster" jsId="gridMaster" structure="layoutM" dojoType="dojox.grid.DataGrid" store="null" headerMenu="gridMenu" style="width:95%;" selectionMode="single"></table>
+				</div>
+			</div>
+        </div>
+    </body>
+</html>

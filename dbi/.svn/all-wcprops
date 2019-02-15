@@ -1,0 +1,395 @@
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/Wapi/!svn/ver/3880/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dbi
+END
+ConexionDBI_Oracle.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/Wapi/!svn/ver/838/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dbi/ConexionDBI_Oracle.class.php
+END
+verificarSesion.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/Wapi/!svn/ver/2248/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dbi/verificarSesion.php
+END
+depuracion_tablas_stats.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/Wapi/!svn/ver/2862/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dbi/depuracion_tablas_stats.php
+END
+propuestas_clientePropuestas.php
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/Wapi/!svn/ver/3851/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dbi/propuestas_clientePropuestas.php
+END
+planes_especiales_subirArchivo.php
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/Wapi/!svn/ver/3246/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dbi/planes_especiales_subirArchivo.php
+END
+propuestas_carga_masiva.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/Wapi/!svn/ver/3880/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dbi/propuestas_carga_masiva.php
+END
+ConexionDBI.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/Wapi/!svn/ver/2698/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dbi/ConexionDBI.class.php
+END
+presupuesto_area_grabar_div.php
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/Wapi/!svn/ver/3880/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dbi/presupuesto_area_grabar_div.php
+END
+presupuesto_region_gruposSubregiones.php
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/Wapi/!svn/ver/3880/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dbi/presupuesto_region_gruposSubregiones.php
+END
+subregionesChecks.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/Wapi/!svn/ver/1587/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dbi/subregionesChecks.php
+END
+planes_especiales_clientesPlanes.php
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/Wapi/!svn/ver/3246/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dbi/planes_especiales_clientesPlanes.php
+END
+perfiles.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Wapi/!svn/ver/1942/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dbi/perfiles.php
+END
+acreditaciones_verAdjunto.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/Wapi/!svn/ver/3256/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dbi/acreditaciones_verAdjunto.php
+END
+bajaExcel.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/Wapi/!svn/ver/2009/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dbi/bajaExcel.php
+END
+presupuestos_carga_masiva.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/Wapi/!svn/ver/3880/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dbi/presupuestos_carga_masiva.php
+END
+propuestas_clientePropuestas1.php
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/Wapi/!svn/ver/3851/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dbi/propuestas_clientePropuestas1.php
+END
+presupuesto_region_excel_div.php
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/Wapi/!svn/ver/3591/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dbi/presupuesto_region_excel_div.php
+END
+e.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/Wapi/!svn/ver/3864/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dbi/e.php
+END
+usuariosTipoChecks.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/Wapi/!svn/ver/2349/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dbi/usuariosTipoChecks.php
+END
+DBI_Util.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Wapi/!svn/ver/942/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dbi/DBI_Util.php
+END
+tiposPresup.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/Wapi/!svn/ver/2357/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dbi/tiposPresup.php
+END
+presupuesto_region_excel_grupo.php
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/Wapi/!svn/ver/3880/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dbi/presupuesto_region_excel_grupo.php
+END
+prorrateo_marca_masivo.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/Wapi/!svn/ver/2104/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dbi/prorrateo_marca_masivo.php
+END
+presupuesto_area_meses_grupo.php
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/Wapi/!svn/ver/3880/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dbi/presupuesto_area_meses_grupo.php
+END
+comprobantes_sp_verAdjunto.php
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/Wapi/!svn/ver/3256/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dbi/comprobantes_sp_verAdjunto.php
+END
+q.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/Wapi/!svn/ver/2328/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dbi/q.php
+END
+acreditaciones_clientesAcreditaciones.php
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/Wapi/!svn/ver/3880/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dbi/acreditaciones_clientesAcreditaciones.php
+END
+presupuesto_area_grabar.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/Wapi/!svn/ver/3406/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dbi/presupuesto_area_grabar.php
+END
+accionesChecks.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/Wapi/!svn/ver/1460/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dbi/accionesChecks.php
+END
+usuariosTipo.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/Wapi/!svn/ver/2349/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dbi/usuariosTipo.php
+END
+consulta_informes_excel.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/Wapi/!svn/ver/3246/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dbi/consulta_informes_excel.php
+END
+comprobantes_sp_subirArchivo.php
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/Wapi/!svn/ver/2862/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dbi/comprobantes_sp_subirArchivo.php
+END
+acreditaciones_masivas_excel.php
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/Wapi/!svn/ver/3843/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dbi/acreditaciones_masivas_excel.php
+END
+planes_especiales_verAdjunto.php
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/Wapi/!svn/ver/3256/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dbi/planes_especiales_verAdjunto.php
+END
+presupuesto_region_excel.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/Wapi/!svn/ver/2698/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dbi/presupuesto_region_excel.php
+END
+acciones.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Wapi/!svn/ver/725/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dbi/acciones.php
+END
+propuestas_valorizacion.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/Wapi/!svn/ver/2102/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dbi/propuestas_valorizacion.php
+END
+productos_sin_lista.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/Wapi/!svn/ver/3795/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dbi/productos_sin_lista.php
+END
+file_write.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/Wapi/!svn/ver/725/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dbi/file_write.php
+END
+acreditaciones_clientesPropuestas.php
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/Wapi/!svn/ver/3784/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dbi/acreditaciones_clientesPropuestas.php
+END
+usuariosChecks.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/Wapi/!svn/ver/1131/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dbi/usuariosChecks.php
+END
+menu.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/Wapi/!svn/ver/2698/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dbi/menu.php
+END
+login.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Wapi/!svn/ver/1086/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dbi/login.php
+END
+depuracion_errores_stats.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/Wapi/!svn/ver/2862/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dbi/depuracion_errores_stats.php
+END
+usuarios.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Wapi/!svn/ver/1134/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dbi/usuarios.php
+END
+ConexionDBI_SQLServer.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/Wapi/!svn/ver/725/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dbi/ConexionDBI_SQLServer.class.php
+END
+depuracion_adjuntos_stats.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/Wapi/!svn/ver/2862/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dbi/depuracion_adjuntos_stats.php
+END
+tiposPresupChecks.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/Wapi/!svn/ver/2359/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dbi/tiposPresupChecks.php
+END
+planes_carga_masiva.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/Wapi/!svn/ver/3880/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dbi/planes_carga_masiva.php
+END
+e_proc_m.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Wapi/!svn/ver/3845/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dbi/e_proc_m.php
+END
+presupuesto_area_meses_div.php
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/Wapi/!svn/ver/3880/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dbi/presupuesto_area_meses_div.php
+END
+subregiones.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/Wapi/!svn/ver/1587/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dbi/subregiones.php
+END
+e_proc_t.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Wapi/!svn/ver/3864/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dbi/e_proc_t.php
+END
+comprobantesSP_carga_masiva.php
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/Wapi/!svn/ver/3843/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dbi/comprobantesSP_carga_masiva.php
+END
+acreditaciones_subirArchivo.php
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/Wapi/!svn/ver/2698/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dbi/acreditaciones_subirArchivo.php
+END
+negocios_marcaDetalle.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/Wapi/!svn/ver/3880/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dbi/negocios_marcaDetalle.php
+END
+negocios_divisionDetalle.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/Wapi/!svn/ver/3880/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dbi/negocios_divisionDetalle.php
+END
+presupuesto_region_verDetalle.php
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/Wapi/!svn/ver/1689/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dbi/presupuesto_region_verDetalle.php
+END
+presupuesto_region_divSubregiones.php
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/Wapi/!svn/ver/3880/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dbi/presupuesto_region_divSubregiones.php
+END
+file_read.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Wapi/!svn/ver/725/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dbi/file_read.php
+END
+acreditaciones_carga_masiva.php
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/Wapi/!svn/ver/3880/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dbi/acreditaciones_carga_masiva.php
+END
+presupuesto_region_marcaSubregiones.php
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/Wapi/!svn/ver/3246/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dbi/presupuesto_region_marcaSubregiones.php
+END
+DBconfig.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Wapi/!svn/ver/2500/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dbi/DBconfig.php
+END
+manual.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/Wapi/!svn/ver/3246/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dbi/manual.php
+END
+presupuesto_area_meses.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/Wapi/!svn/ver/1658/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dbi/presupuesto_area_meses.php
+END

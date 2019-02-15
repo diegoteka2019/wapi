@@ -1,0 +1,9 @@
+{
+	identifier: 'id',
+	label: 'tabla',
+	items: [
+		{ id: 1, tabla:'ACREDITACIONES'},
+		{ id: 2, tabla:'PLANES_ESPECIALES'},
+		{ id: 3, tabla:'COMPROBANTESSP'}
+	]
+}

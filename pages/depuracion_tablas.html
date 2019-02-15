@@ -1,0 +1,20 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="Pragma" content="no-cache">
+		<script type="text/javascript" src="scripts/depuracion_tablas.js"></script>
+    </head>
+    <body class="soria">
+        <!-- ### TITULO ### -->
+		<div dojoType="dijit.layout.ContentPane" class="dijitToolbar" style="text-align:right;height:20px;">
+			<b><div id="bloqueMaster" style="display:inline;text-align:left;font-size:1.1em;padding-top:2px;margin-left:5px;float:left;">&nbsp;</div></b>
+			<div id="cmn_mensajes_master" title="Click para ocultar" onclick="dojo.fadeOut({node:'cmn_mensajes_master'}).play();dojo.byId('cmn_mensajes_master').style.cursor='default';" style="display:inline;width:30%;text-align:center;color:black;margin-top:2px;border: 1px solid #BABABA;">&nbsp;</div>
+		</div>
+		<!-- ### BARRA DE HERRAMIENTAS ### -->
+		<div id="toolbarMaster" style="height:24px;" dojoType="dijit.Toolbar"><div id="cantidadObtenidaMaster" style="float:right;padding:5px;">&nbsp;</div></div>
+		<!-- ### GRILLA ### -->
+		<div style="height:90%;"><table id="gridMaster" jsId="gridMaster" style="width:98%;" canSort="function(index){return false;}" structure="layoutMaster" onSelected="OnSelectedMaster()" dojoType="dojox.grid.DataGrid" store="null" selectionMode="single" noDataMessage="No se han encontrado registros"></table></div>
+	</body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="Pragma" content="no-cache">
+		<script type="text/javascript" src="common/scripts/CMN_datos.js"></script>
+    </head>
+    <body class="soria">
+		<!-- ################################ BLOQUE MASTER ################################## -->
+        <!-- ### TITULO ### -->
+		<div dojoType="dijit.layout.ContentPane" class="dijitToolbar" style="text-align:right;height:20px;">
+			<b><div id="bloqueMaster" style="display:inline;text-align:left;font-size:1.1em;padding-top:2px;margin-left:5px;float:left;">&nbsp;</div></b>
+			<div id="cmn_mensajes_master" title="Click para ocultar" onclick="dojo.fadeOut({node:'cmn_mensajes_master'}).play();dojo.byId('cmn_mensajes_master').style.cursor='default';" style="display:inline;width:30%;text-align:center;color:black;margin-top:2px;border: 1px solid #BABABA;">&nbsp;</div>
+		</div>
+		<!-- ### BARRA DE HERRAMIENTAS ### -->
+		<div id="toolbarMaster" style="height:24px;" dojoType="dijit.Toolbar"><div id="cantidadObtenidaMaster" style="float:right;padding:5px;">&nbsp;</div></div>
+		<!-- ### SOLAPAS ### -->
+		<div dojoType="dijit.layout.TabContainer" tabStrip="true" style="width:100%;height:91%;">
+			<div id="asignacionArea" title="Asignaci&oacute;n por Area y Subregi&oacute;n" dojoType="dijit.layout.TabContainer" nested="true" tabStrip="true" style="width:100%;height:91%;">
+				<div id="masiva" title="Asignaci&oacute;n Masiva" style="height:100%;" dojoType="dijit.layout.ContentPane">
+					<!-- ### MASIVA ### -->
+					<div dojoType="dijit.layout.BorderContainer" design="headline" gutters="false" liveSplitters="true" style="padding:0px;margin:0px;">
+						<div id="arbolMaster1" style="width:50%;" dojoType="dijit.layout.ContentPane" splitter="false" region="left"></div>
+						<div id="arbolDetail1" style="width:50%;" dojoType="dijit.layout.ContentPane" splitter="false" region="center"></div>
+					</div>
+				</div>
+				<div id="porArea" title="Asignaci&oacute;n por Area" style="height:100%;" dojoType="dijit.layout.ContentPane">
+					<!-- ### POR AREA ### -->
+					<div dojoType="dijit.layout.BorderContainer" design="headline" gutters="false" liveSplitters="true" style="padding:0px;margin:0px;">
+						<div id="filtrosArea" style="width:50%;" dojoType="dijit.layout.ContentPane" splitter="false" region="left">
+							<div dojoType="dojox.layout.TableContainer" cols=1>
+								<div dojoType="dijit.form.FilteringSelect" id="usuario" required="true" label="Usuario: " searchAttr="detalle" promptMessage="Seleccione un Usuario" store="null">
+									<script type="dojo/method" event="onChange" args="value">
+									dijit.byId("perfil").attr("store",new dojo.data.ItemFileReadStore({url:'dbi/q.php?sid='+gvarSID+'&dmlid=1505&usuario_id='+value,preventCache:true}));
+									dijit.byId("perfil").store.fetch();
+									dijit.byId("perfil").attr("value",null);
+									</script>
+								</div>
+								<div dojoType="dijit.form.FilteringSelect" id="perfil" required="true" label="Perfil: " searchAttr="detalle" promptMessage="Seleccione un Perfil" store="null">
+									<script type="dojo/method" event="onChange" args="value">
+										if(dijit.byId('nuevoMaster')){dijit.byId('nuevoMaster').attr('disabled',false);}
+									</script>
+								</div>
+							</div>
+						</div>
+						<div id="arbolMaster2" style="width:50%;" dojoType="dijit.layout.ContentPane" splitter="false" region="center"></div>
+					</div>
+				</div>
+				<div id="porUsuario" title="Asignaci&oacute;n por Usuario" style="height:100%;" dojoType="dijit.layout.ContentPane" onClick="if(dijit.byId('eliminarMaster')){dijit.byId('eliminarMaster').attr('disabled',true);}">
+					<!-- ### POR USUARIO ### -->
+					<div dojoType="dijit.layout.BorderContainer" design="headline" gutters="false" liveSplitters="true" style="padding:0px;margin:0px;">
+						<div id="filtrosUsuario" style="width:50%;" dojoType="dijit.layout.ContentPane" splitter="false" region="left">
+							<div dojoType="dojox.layout.TableContainer" cols=1>
+								<div dojoType="dijit.form.FilteringSelect" id="area" required="true" label="Area: " searchAttr="detalle" promptMessage="Seleccione un Area" store="null">
+									<script type="dojo/method" event="onChange" args="value">
+									dijit.byId("region").attr("store",new dojo.data.ItemFileReadStore({url:'dbi/q.php?sid='+gvarSID+'&dmlid=1507&area_id='+value,preventCache:true}));
+									dijit.byId("region").store.fetch();
+									dijit.byId("region").attr("value",null);
+									</script>
+								</div>
+								<div dojoType="dijit.form.FilteringSelect" id="region" required="true" label="Region: " searchAttr="detalle" promptMessage="Seleccione una Region" store="null">
+									<script type="dojo/method" event="onChange" args="value">
+									dijit.byId("subregion").attr("store",new dojo.data.ItemFileReadStore({url:'dbi/q.php?sid='+gvarSID+'&dmlid=1508&area_id='+dijit.byId('area').attr('value')+'&region_id='+value,preventCache:true}));
+									dijit.byId("subregion").store.fetch();
+									dijit.byId("subregion").attr("value",null);
+									</script>
+								</div>
+								<div dojoType="dijit.form.FilteringSelect" id="subregion" required="true" label="Sub-Region: " searchAttr="detalle" promptMessage="Seleccione una Sub-Region" store="null">
+									<script type="dojo/method" event="onChange" args="value">
+										if(dijit.byId('nuevoMaster')){dijit.byId('nuevoMaster').attr('disabled',false);}
+									</script>
+								</div>
+							</div>
+						</div>
+						<div id="arbolMaster3" style="width:50%;" dojoType="dijit.layout.ContentPane" splitter="false" region="center"></div>
+					</div>
+				</div>
+			</div>
+			<div id="asignacionTipoPresupuesto" title="Asignaci&oacute;n de Tipo de Presupuesto" dojoType="dijit.layout.TabContainer" nested="true" tabStrip="true" style="width:100%;height:91%;">
+				<div id="masiva2" title="Asignaci&oacute;n Masiva" style="height:100%;" dojoType="dijit.layout.ContentPane">
+					<!-- ### MASIVA ### -->
+					<div dojoType="dijit.layout.BorderContainer" design="headline" gutters="false" liveSplitters="true" style="padding:0px;margin:0px;">
+						<div id="arbolMaster4" style="width:50%;" dojoType="dijit.layout.ContentPane" splitter="false" region="left"></div>
+						<div id="arbolDetail4" style="width:50%;" dojoType="dijit.layout.ContentPane" splitter="false" region="center"></div>
+					</div>
+				</div>
+				<div id="porArea2" title="Asignaci&oacute;n por Tipo de Presupuesto" style="height:100%;" dojoType="dijit.layout.ContentPane">
+					<!-- ### POR TIPO PRESUPUESTO ### -->
+					<div dojoType="dijit.layout.BorderContainer" design="headline" gutters="false" liveSplitters="true" style="padding:0px;margin:0px;">
+						<div id="filtrosPresupuesto" style="width:50%;" dojoType="dijit.layout.ContentPane" splitter="false" region="left">
+							<div dojoType="dojox.layout.TableContainer" cols=1>
+								<div dojoType="dijit.form.FilteringSelect" id="usuarioP" required="true" label="Usuario: " searchAttr="detalle" promptMessage="Seleccione un Usuario" store="null">
+									<script type="dojo/method" event="onChange" args="value">
+									dijit.byId("perfilP").attr("store",new dojo.data.ItemFileReadStore({url:'dbi/q.php?sid='+gvarSID+'&dmlid=1505&usuario_id='+value,preventCache:true}));
+									dijit.byId("perfilP").store.fetch();
+									dijit.byId("perfilP").attr("value",null);
+									</script>
+								</div>
+								<div dojoType="dijit.form.FilteringSelect" id="perfilP" required="true" label="Perfil: " searchAttr="detalle" promptMessage="Seleccione un Perfil" store="null">
+									<script type="dojo/method" event="onChange" args="value">
+										if(dijit.byId('nuevoMaster')){dijit.byId('nuevoMaster').attr('disabled',false);}
+									</script>
+								</div>
+							</div>
+						</div>
+						<div id="arbolMaster5" style="width:50%;" dojoType="dijit.layout.ContentPane" splitter="false" region="center"></div>
+					</div>
+				</div>
+				<div id="porUsuario2" title="Asignaci&oacute;n por Usuario" style="height:100%;" dojoType="dijit.layout.ContentPane" onClick="if(dijit.byId('eliminarMaster')){dijit.byId('eliminarMaster').attr('disabled',true);}">
+					<!-- ### POR USUARIO ### -->
+					<div dojoType="dijit.layout.BorderContainer" design="headline" gutters="false" liveSplitters="true" style="padding:0px;margin:0px;">
+						<div id="filtrosUsuario2" style="width:50%;" dojoType="dijit.layout.ContentPane" splitter="false" region="left">
+							<div dojoType="dojox.layout.TableContainer" cols=1>
+								<div dojoType="dijit.form.FilteringSelect" id="tipoPresupuesto" required="true" label="Tipo de Presupuesto: " searchAttr="detalle" promptMessage="Seleccione un Tipo de Presupuesto" store="null">
+									<script type="dojo/method" event="onChange" args="value">
+									if(dijit.byId('nuevoMaster')){dijit.byId('nuevoMaster').attr('disabled',false);}
+									</script>
+								</div>
+							</div>
+						</div>
+						<div id="arbolMaster6" style="width:50%;" dojoType="dijit.layout.ContentPane" splitter="false" region="center"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

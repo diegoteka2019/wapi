@@ -1,0 +1,9 @@
+{
+	identifier: 'id_proceso',
+	label: 'proceso_desc',
+	items: [
+		{ id_proceso: 'WAPI_ACRE', proceso_desc:'ACREDITACIONES'},
+		{ id_proceso: 'WAPI_PESP', proceso_desc:'PLANES ESPECIALES'},
+		{ id_proceso: 'NCSP01', proceso_desc:'COMPROBANTES SIN PRESUPUESTO'}
+	]
+}

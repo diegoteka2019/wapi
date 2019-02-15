@@ -1,0 +1,37 @@
+9
+
+dir
+3917
+http://167.252.7.114/svn/Wapi/WAPI-MULTIPAIS/03-Informaci%c3%b3n%20T%c3%a9cnica/CodigoFuente/htdocs/wapimp/dbi/lib
+http://167.252.7.114/svn/Wapi
+
+
+
+2010-04-16T20:32:25.165983Z
+2296
+emlopez
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+3a40bd69-f123-0410-bcca-c6e2d96b7483
+
+ExcelReader
+dir
+
+JSON
+dir
+
+ExcelWriter
+dir
+

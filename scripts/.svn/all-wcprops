@@ -1,0 +1,233 @@
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/Wapi/!svn/ver/3892/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/scripts
+END
+comprobantes_sp_minoristas.js
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/Wapi/!svn/ver/3880/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/scripts/comprobantes_sp_minoristas.js
+END
+generacion_informes.js
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/Wapi/!svn/ver/3880/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/scripts/generacion_informes.js
+END
+acreditaciones.js
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/Wapi/!svn/ver/3880/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/scripts/acreditaciones.js
+END
+marcas_competencia.js
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/Wapi/!svn/ver/3880/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/scripts/marcas_competencia.js
+END
+carga_masiva_presupuestos.js
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/Wapi/!svn/ver/3880/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/scripts/carga_masiva_presupuestos.js
+END
+prorrateo_marca.js
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/Wapi/!svn/ver/3522/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/scripts/prorrateo_marca.js
+END
+tipos_comprobantes_truck.js
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/Wapi/!svn/ver/2700/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/scripts/tipos_comprobantes_truck.js
+END
+negocio.js
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/Wapi/!svn/ver/3880/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/scripts/negocio.js
+END
+objetivos_ventas.js
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/Wapi/!svn/ver/3880/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/scripts/objetivos_ventas.js
+END
+productos_sin_lista.js
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/Wapi/!svn/ver/3795/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/scripts/productos_sin_lista.js
+END
+provision.js
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/Wapi/!svn/ver/3880/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/scripts/provision.js
+END
+presupuestos_region_division.js
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/Wapi/!svn/ver/3892/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/scripts/presupuestos_region_division.js
+END
+tipo_presupuesto.js
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/Wapi/!svn/ver/3880/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/scripts/tipo_presupuesto.js
+END
+depuracion_errores.js
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/Wapi/!svn/ver/3285/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/scripts/depuracion_errores.js
+END
+marcas_habilitadas.js
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/Wapi/!svn/ver/3880/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/scripts/marcas_habilitadas.js
+END
+depuracion_adjuntos.js
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/Wapi/!svn/ver/2698/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/scripts/depuracion_adjuntos.js
+END
+productos_inactivos.js
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/Wapi/!svn/ver/3406/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/scripts/productos_inactivos.js
+END
+descripcion_propuesta.js
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/Wapi/!svn/ver/3880/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/scripts/descripcion_propuesta.js
+END
+propuestas.js
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/Wapi/!svn/ver/3849/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/scripts/propuestas.js
+END
+prorrateo_concepto.js
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/Wapi/!svn/ver/3880/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/scripts/prorrateo_concepto.js
+END
+vigencias.js
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/Wapi/!svn/ver/1543/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/scripts/vigencias.js
+END
+presupuestos_area.js
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/Wapi/!svn/ver/3522/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/scripts/presupuestos_area.js
+END
+propuestas_division.js
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/Wapi/!svn/ver/3880/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/scripts/propuestas_division.js
+END
+subregiones_habilitadas.js
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/Wapi/!svn/ver/3880/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/scripts/subregiones_habilitadas.js
+END
+contratos.js
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/Wapi/!svn/ver/3770/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/scripts/contratos.js
+END
+presupuestos_area_division.js
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/Wapi/!svn/ver/3880/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/scripts/presupuestos_area_division.js
+END
+depuracion_tablas.js
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/Wapi/!svn/ver/2698/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/scripts/depuracion_tablas.js
+END
+planes_especiales.js
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/Wapi/!svn/ver/3880/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/scripts/planes_especiales.js
+END
+canales_mkt.js
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/Wapi/!svn/ver/2343/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/scripts/canales_mkt.js
+END
+comprobantes_sin_presupuesto.js
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/Wapi/!svn/ver/3880/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/scripts/comprobantes_sin_presupuesto.js
+END
+presupuestos_region.js
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/Wapi/!svn/ver/3890/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/scripts/presupuestos_region.js
+END
+consulta_informes.js
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/Wapi/!svn/ver/3770/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/scripts/consulta_informes.js
+END
+tipos_descuentos.js
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/Wapi/!svn/ver/2221/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/scripts/tipos_descuentos.js
+END
+reportes_perfiles.js
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/Wapi/!svn/ver/3880/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/scripts/reportes_perfiles.js
+END
+propuestas_bultos.js
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/Wapi/!svn/ver/3868/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/scripts/propuestas_bultos.js
+END
+propuestas_bultos_division.js
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/Wapi/!svn/ver/3880/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/scripts/propuestas_bultos_division.js
+END
+tipificacion_presupuestos.js
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/Wapi/!svn/ver/2437/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/scripts/tipificacion_presupuestos.js
+END
+canales_venta.js
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/Wapi/!svn/ver/2210/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/scripts/canales_venta.js
+END

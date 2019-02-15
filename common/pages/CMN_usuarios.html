@@ -1,0 +1,31 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Pragma" content="no-cache">
+		<script type="text/javascript" src="common/scripts/CMN_usuarios.js"></script>
+    </head>
+    <body class="soria">
+		<!-- ################################ BLOQUE DETAIL ################################## -->
+		<!-- ### TITULO ### -->
+		<div dojoType="dijit.layout.ContentPane" class="dijitToolbar" style="border-top:1px solid #CCCCCC;height:20px;">
+			<div id="cmn_mensajes_detail" title="Click para ocultar" onclick="dojo.fadeOut({node:'cmn_mensajes_detail'}).play();dojo.byId('cmn_mensajes_detail').style.cursor='default';" style="float:right;width:20%;text-align:center;color: black;margin-top:2px;border: 1px solid #BABABA;">&nbsp;</div>
+			<b><div id="bloqueDetail" style="width:70%;text-align:left;font-size:1.1em;padding-top:2px;margin-left:5px;">&nbsp;</div></b>
+		</div>
+		<!-- ### BARRA DE HERRAMIENTAS ### -->
+		<div id="toolbarDetail" style="height:24px;" dojoType="dijit.Toolbar"><div id="cantidadObtenidaDetail" style="float:right;padding:5px;">&nbsp;</div></div>
+		<!-- ### GRILLA ### -->
+		<div style="height:40%;"><table id="gridDetail" jsId="gridDetail" noDataMessage="No se han encontrado datos" style="width:98%;" structure="layoutDetail" onSelected="OnSelectedDetail()" dojoType="dojox.grid.DataGrid" store="null" selectionMode="single"></table></div> 
+
+		<!-- ################################ BLOQUE MASTER ################################## -->
+        <!-- ### TITULO ### -->
+		<div dojoType="dijit.layout.ContentPane" class="dijitToolbar" style="height:20px;">
+			<div id="cmn_mensajes_master" title="Click para ocultar" onclick="dojo.fadeOut({node:'cmn_mensajes_master'}).play();dojo.byId('cmn_mensajes_master').style.cursor='default';" style="float:right;width:20%;text-align:center;color: black;margin-top:2px;border: 1px solid #BABABA;">&nbsp;</div>
+			<b><div id="bloqueMaster" style="width:70%;text-align:left;font-size:1.1em;padding-top:2px;margin-left:5px">&nbsp;</div></b>
+		</div>
+		<!-- ### BARRA DE HERRAMIENTAS ### -->
+		<div id="toolbarMaster" style="height:24px;" dojoType="dijit.Toolbar"><div id="cantidadObtenidaMaster" style="float:right;padding:5px;">&nbsp;</div></div>
+		<!-- ### GRILLA ### -->
+		<div style="height:40%;"><table id="gridMaster" jsId="gridMaster" noDataMessage="No se han encontrado datos" style="width:98%;" structure="layoutMaster" onSelected="OnSelectedMaster()" dojoType="dojox.grid.DataGrid" store="null" selectionMode="single"></table></div>
+    </body>
+</html>

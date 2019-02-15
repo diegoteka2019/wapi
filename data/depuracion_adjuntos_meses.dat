@@ -1,0 +1,8 @@
+{
+	identifier: 'id',
+	label: 'meses',
+	items: [
+		{ id: 4, detalle:'4'},
+		{ id: 13, detalle:'13'}
+	]
+}

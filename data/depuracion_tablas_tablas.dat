@@ -1,0 +1,12 @@
+{
+	identifier: 'id',
+	label: 'tabla',
+	items: [
+		{ id: 1, tabla:'LOG_ESTADOS'},
+		{ id: 2, tabla:'PROPUESTAS_ESTADOS'},
+		{ id: 3, tabla:'ACREDITACIONES_ESTADOS'},
+		{ id: 4, tabla:'PLANES_ESPECIALES_ESTADOS'},
+		{ id: 5, tabla:'COMPROBANTESSP_ESTADOS'},
+		{ id: 6, tabla:'PROVISIONES_PROPUESTAS'}
+	]
+}

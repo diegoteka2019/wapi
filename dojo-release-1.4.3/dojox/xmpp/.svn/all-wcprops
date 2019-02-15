@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/Wapi/!svn/ver/3246/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dojo-release-1.4.3/dojox/xmpp
+END
+PresenceService.js
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/Wapi/!svn/ver/3246/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dojo-release-1.4.3/dojox/xmpp/PresenceService.js
+END
+xmppSession.js
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/Wapi/!svn/ver/3246/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dojo-release-1.4.3/dojox/xmpp/xmppSession.js
+END
+bosh.js
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/Wapi/!svn/ver/3246/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dojo-release-1.4.3/dojox/xmpp/bosh.js
+END
+util.js
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/Wapi/!svn/ver/3246/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dojo-release-1.4.3/dojox/xmpp/util.js
+END
+RosterService.js
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/Wapi/!svn/ver/3246/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dojo-release-1.4.3/dojox/xmpp/RosterService.js
+END
+UserService.js
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/Wapi/!svn/ver/3246/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dojo-release-1.4.3/dojox/xmpp/UserService.js
+END
+ChatService.js
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/Wapi/!svn/ver/3246/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dojo-release-1.4.3/dojox/xmpp/ChatService.js
+END
+TransportSession.js
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/Wapi/!svn/ver/3246/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dojo-release-1.4.3/dojox/xmpp/TransportSession.js
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/Wapi/!svn/ver/3246/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dojo-release-1.4.3/dojox/xmpp/README
+END
+sasl.js
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/Wapi/!svn/ver/3246/WAPI-MULTIPAIS/03-Informaci%C3%B3n%20T%C3%A9cnica/CodigoFuente/htdocs/wapimp/dojo-release-1.4.3/dojox/xmpp/sasl.js
+END

@@ -1,0 +1,292 @@
+/* 
+    Document   : main
+    Created on : 19/02/2009, 13:24:02
+    Author     : Daniel Peñaloza
+    Description:
+        Pagina de estilo principal de la aplicación.
+		
+		tundra/soria/nihilo
+*/
+@import "../dojo-release-1.4.3/dijit/themes/soria/soria.css";
+@import "../dojo-release-1.4.3/dojo/resources/dojo.css";
+
+
+@import "../dojo-release-1.4.3/dojox/grid/resources/Grid.css";
+@import "../dojo-release-1.4.3/dojox/grid/resources/soriaGrid.css";
+@import "myFileInput.css";
+@import "../dojo-release-1.4.3/dojox/form/resources/CheckedMultiSelect.css";
+
+/* Este es para manejar tablas dentro del editor */
+/*@import "../dojo-release-1.4.3/dojox/editor/plugins/resources/editorPlugins.css"; */
+
+
+html, body { 
+        height: 100%; 
+        width: 100%; 
+        margin: 0; 
+        padding: 0;
+		overflow: auto;
+    }
+#main {
+        height: 100%; 
+        width: 100%;
+    }
+	
+div.procesando{
+    background-image: url(../dojo-release-1.4.3/dojox/image/resources/images/loading.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* #cantidadObtenida{
+		font-size:11px;
+}	
+
+#cantidadObtenidaM {
+		font-size:11px;
+}
+
+#cantidadObtenidaD{
+		font-size:11px;
+} */
+
+.nuevoIcon {
+	background-image: url('../images/nuevoIcon.gif'); 
+	background-repeat: no-repeat;
+	width: 18px;
+	height: 18px;
+	text-align: center;
+	background-position: 0px;
+}
+.depurarIcon {
+	background-image: url('../images/depurarIcon.gif'); 
+	background-repeat: no-repeat;
+	width: 18px;
+	height: 18px;
+	text-align: center;
+	background-position: 0px;
+}
+
+.editarIcon {
+	background-image: url('../images/editarIcon.gif'); 
+	background-repeat: no-repeat;
+	width: 18px;
+	height: 18px;
+	text-align: center;
+	background-position: 0px;
+}
+
+.guardarIcon {
+	background-image: url('../images/guardarIcon.gif'); 
+	background-repeat: no-repeat;
+	width: 18px;
+	height: 18px;
+	text-align: center;
+	background-position: 0px;
+}
+
+.buscarIcon {
+	background-image: url('../images/buscarIcon.gif'); 
+	background-repeat: no-repeat;
+	width: 18px;
+	height: 18px;
+	text-align: center;
+	background-position: 0px;
+}
+
+.eliminarIcon {
+	background-image: url('../images/eliminarIcon.gif'); 
+	background-repeat: no-repeat;
+	width: 18px;
+	height: 18px;
+	text-align: center;
+	background-position: 0px;
+}
+
+.aceptarIcon {
+	background-image: url('../images/aceptarIcon.gif'); 
+	background-repeat: no-repeat;
+	width: 18px;
+	height: 18px;
+	text-align: center;
+	background-position: 0px;
+}
+
+.cancelarIcon {
+	background-image: url('../images/cancelarIcon.gif'); 
+	background-repeat: no-repeat;
+	width: 18px;
+	height: 18px;
+	text-align: center;
+	background-position: 0px;
+}
+
+.claveIcon {
+	background-image: url('../images/claveIcon.gif'); 
+	background-repeat: no-repeat;
+	width: 18px;
+	height: 18px;
+	text-align: center;
+	background-position: 0px;
+}
+
+.copiarIcon {
+	background-image: url('../images/copiarIcon.gif'); 
+	background-repeat: no-repeat;
+	width: 18px;
+	height: 18px;
+	text-align: center;
+	background-position: 0px;
+}
+
+.auditIcon {
+	background-image: url('../images/auditIcon2.gif'); 
+	background-repeat: no-repeat;
+	width: 18px;
+	height: 18px;
+	text-align: center;
+	background-position: 0px;
+}
+
+.auditIcon2{
+	background-image: url('../images/auditIcon2.gif'); 
+	background-repeat: no-repeat;
+	width: 18px;
+	height: 18px;
+	text-align: center;
+	background-position: 0px;
+}
+
+.filtroIcon {
+	background-image: url('../images/filtroIcon.gif'); 
+	background-repeat: no-repeat;
+	width: 18px;
+	height: 18px;
+	text-align: center;
+	background-position: 0px;
+}
+
+.excelIcon {
+	background-image: url('../images/ExcelIcon.gif'); 
+	background-repeat: no-repeat;
+	width: 18px;
+	height: 18px;
+	text-align: center;
+	background-position: 0px;
+}
+
+.adjuntoIcon {
+	background-image: url('../images/adjuntoIcon.gif'); 
+	background-repeat: no-repeat;
+	width: 18px;
+	height: 18px;
+	text-align: center;
+	background-position: 0px;
+}
+
+.limpiarIcon {
+	background-image: url('../images/limpiarIcon.gif'); 
+	background-repeat: no-repeat;
+	width: 18px;
+	height: 18px;
+	text-align: center;
+	background-position: 0px;
+}
+
+.limpiar2Icon {
+	background-image: url('../images/limpiar2Icon.gif'); 
+	background-repeat: no-repeat;
+	width: 18px;
+	height: 18px;
+	text-align: center;
+	background-position: 0px;
+}
+
+.verDetalleIcon {
+	background-image: url('../images/verDetalleIcon.gif'); 
+	background-repeat: no-repeat;
+	width: 18px;
+	height: 18px;
+	text-align: center;
+	background-position: 0px;
+}
+
+.simularIcon {
+	background-image: url('../images/simularIcon.gif'); 
+	background-repeat: no-repeat;
+	width: 18px;
+	height: 18px;
+	text-align: center;
+	background-position: 0px;
+}
+
+.generarIcon {
+	background-image: url('../images/generarIcon.gif'); 
+	background-repeat: no-repeat;
+	width: 18px;
+	height: 18px;
+	text-align: center;
+	background-position: 0px;
+}
+
+.envioIcon {
+	background-image: url('../images/envioLotusIcon.gif'); 
+	background-repeat: no-repeat;
+	width: 18px;
+	height: 18px;
+	text-align: center;
+	background-position: 0px;
+}
+.envioMasivoIcon {
+	background-image: url('../images/envioLotusMasivoIcon.gif'); 
+	background-repeat: no-repeat;
+	width: 18px;
+	height: 18px;
+	text-align: center;
+	background-position: 0px;
+}
+.envioLotusIcon {
+	background-image: url('../images/envioLotusIcon.gif'); 
+	background-repeat: no-repeat;
+	width: 18px;
+	height: 18px;
+	text-align: center;
+	background-position: 0px;
+}
+.envioLotusMasivoIcon {
+	background-image: url('../images/envioLotusMasivoIcon.gif'); 
+	background-repeat: no-repeat;
+	width: 18px;
+	height: 18px;
+	text-align: center;
+	background-position: 0px;
+}
+
+.ajustarIcon {
+	background-image: url('../images/ajustarIcon.gif'); 
+	background-repeat: no-repeat;
+	width: 18px;
+	height: 18px;
+	text-align: center;
+	background-position: 0px;
+}
+
+#labelTipoServidor{
+	text-align:center;
+	vertical-align:middle;
+	width:54px;
+	font-size:11px;
+}
+
+.tipoDESA {
+	background-color:#00FF00;
+}
+
+.tipoTEST {
+	background-color:#FFFF00;
+}
+
+.tipoPROD {
+	background-color:#FF0000;
+	color:#FFFFFF;
+}

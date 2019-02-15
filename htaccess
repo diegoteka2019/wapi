@@ -1,0 +1,2 @@
+#Para que php no registre las variables de ambiente como globales
+php_flag register_globals off

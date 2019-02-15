@@ -1,0 +1,58 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="Pragma" content="no-cache">
+		<script type="text/javascript" src="scripts/presupuestos_area.js"></script>
+    </head>
+    <body class="soria">
+        <!-- ### TITULO ### -->
+		<div dojoType="dijit.layout.ContentPane" class="dijitToolbar" style="text-align:right;height:20px;">
+			<b><div id="bloqueMaster" style="display:inline;text-align:left;font-size:1.1em;padding-top:2px;margin-left:5px;float:left;">&nbsp;</div></b>
+			<div id="cmn_mensajes_master" title="Click para ocultar" onclick="dojo.fadeOut({node:'cmn_mensajes_master'}).play();dojo.byId('cmn_mensajes_master').style.cursor='default';" style="display:inline;width:50%;text-align:center;color:black;margin-top:2px;border: 1px solid #BABABA;">&nbsp;</div>
+		</div>
+		<!-- ### BARRA DE HERRAMIENTAS ### -->
+		<div id="toolbarMaster" style="height:24px;" dojoType="dijit.Toolbar"></div>
+		<!-- ### GRILLA ### -->
+		<div id="mostrarFiltros" class="dijitToolbar">&nbsp;</div>
+		<div><table id="gridMaster" jsId="gridMaster" autoHeight="true" structure="layoutMaster" onSelected="OnSelectedMaster()" dojoType="dojox.grid.DataGrid" store="null" selectionMode="single" noDataMessage="No se han encontrado registros"></table></div>
+		<!-- ### DIALOGO DE MODIFICACION ### -->
+		<div dojoType="dijit.Dialog" id="dialogMaster" title="Ingreso de datos" style="width:750px;background-color:#FFFFFF;" >
+			<div dojoType="dijit.layout.ContentPane" id="divCampos" style="padding:0px;margin:0px;text-align:center;"></div>
+			<br>
+			<table width="98%" cellspacing="0" cellpadding="0">
+				<tr width="30%"><td></td>
+					<td class="dijitToolbar" style="border:1px solid #cccccc;text-align:center;">Actual</td>
+					<td class="dijitToolbar" style="border-right:1px solid #cccccc;border-bottom:1px solid #cccccc;border-top:1px solid #cccccc;text-align:center;">Ajuste</td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr width="30%"><td style="width:140px;border:1px solid #cccccc;">Importe</td>
+					<td id="importeActual" style="width:70px;border-right:1px solid #cccccc;border-bottom:1px solid #cccccc;text-align:center;"></td>
+					<td style="width:70px;border-right:1px solid #cccccc;border-bottom:1px solid #cccccc;text-align:center;"><div id="importeNuevo" required="true" dojoType="dijit.form.NumberTextBox" constraints="{min:0,max:9999999999,places:2}" style="width:98%;padding:0px;margin:0px;font-size:1.1em;" value=0 invalidMessage="El Importe debe ser mayor a cero y tener el formato '0,00'"></div></td>
+					<td style="width:100px;text-align:center;">Observaciones: </td>
+					<td style="width:300px;vertical-align:top;" rowspan=3><textarea id="observaciones" maxLength="100" dojoType="dijit.form.SimpleTextarea"></textarea></td>
+				</tr>
+				<tr width="30%"><td style="width:140px;border-right:1px solid #cccccc;border-bottom:1px solid #cccccc;border-left:1px solid #cccccc;">Volumen de Ventas</td>
+					<td id="volumenVentasActual" style="width:70px;border-right:1px solid #cccccc;border-bottom:1px solid #cccccc;text-align:center;"></td>
+					<td style="width:70px;border-right:1px solid #cccccc;border-bottom:1px solid #cccccc;text-align:center;padding:0px;"><div id="volumenVentasNuevo" required="true" dojoType="dijit.form.NumberTextBox" constraints="{min:0,max:9999999999,places:2}" style="width:98%;padding:0px;margin:0px;font-size:1.1em;" value=0 promptMessage="El Volumen de Ventas debe ser mayor a cero y tener el formato '0,00'"></div></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr width="30%"><td style="width:140px;border-right:1px solid #cccccc;border-bottom:1px solid #cccccc;border-left:1px solid #cccccc;">$/ Htl.</td>
+					<td id="precioLitroActual" style="width:70px;border-right:1px solid #cccccc;border-bottom:1px solid #cccccc;text-align:center;"></td>
+					<td style="width:70px;border-right:1px solid #cccccc;border-bottom:1px solid #cccccc;text-align:center;"><div id="precioLitroNuevo" required="true" readOnly="true" dojoType="dijit.form.NumberTextBox" constraints="{min:0,max:9999999999,places:2}" style="width:98%;padding:0px;margin:0px;font-size:1.1em;" value=0 promptMessage="El $/ Htl. debe ser mayor a cero y tener el formato '0,00'"></div></td>
+					<td></td>
+					<td></td>
+				</tr>
+			</table>
+			<br>
+			<div class="dijitToolbar" style="width:700px;text-align:center;">Hist&oacute;rico de Ajustes</div>
+			<div id="gridNode" style="width:700px;">
+				<table id="gridArea" jsId="gridArea" style="width:100%;height:125px;" structure="layoutDialog" dojoType="dojox.grid.DataGrid" store="null" selectionMode="single" noDataMessage="No se han encontrado registros"></table>
+			</div>
+			<div dojoType="dijit.layout.ContentPane" id="divBotones" style="padding:0px;margin:0px;text-align:center;"></div>
+		</div>
+	</body>
+</html>

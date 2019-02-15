@@ -1,0 +1,40 @@
+9
+
+dir
+3917
+http://167.252.7.114/svn/Wapi/WAPI-MULTIPAIS/03-Informaci%c3%b3n%20T%c3%a9cnica/CodigoFuente/htdocs/wapimp/common
+http://167.252.7.114/svn/Wapi
+
+
+
+2012-05-16T17:09:16.540722Z
+3880
+bamartin
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+3a40bd69-f123-0410-bcca-c6e2d96b7483
+
+pages
+dir
+
+extenciones
+dir
+
+scripts
+dir
+
+Template
+dir
+
